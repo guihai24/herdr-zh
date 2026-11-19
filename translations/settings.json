@@ -1,0 +1,350 @@
+[
+  {
+    "old": "Settings",
+    "new": "设置"
+  },
+  {
+    "old": "Look",
+    "new": "外观"
+  },
+  {
+    "old": "Keyboard",
+    "new": "键盘"
+  },
+  {
+    "old": "Machines",
+    "new": "机器"
+  },
+  {
+    "old": "Alerts",
+    "new": "提醒"
+  },
+  {
+    "old": "Updates",
+    "new": "更新"
+  },
+  {
+    "old": "Privacy",
+    "new": "隐私"
+  },
+  {
+    "old": "Send feedback",
+    "new": "发送反馈"
+  },
+  {
+    "old": "System",
+    "new": "跟随系统"
+  },
+  {
+    "old": "Light",
+    "new": "浅色"
+  },
+  {
+    "old": "Dark",
+    "new": "深色"
+  },
+  {
+    "old": "Layout",
+    "new": "布局"
+  },
+  {
+    "old": "Theme",
+    "new": "主题"
+  },
+  {
+    "old": "Appearance",
+    "new": "外观模式"
+  },
+  {
+    "old": "Light or dark, or as your system is now.",
+    "new": "浅色或深色，也可以跟随系统。"
+  },
+  {
+    "old": "For the layout you're in: each layout keeps its own light and dark theme.",
+    "new": "只对当前布局生效：每个布局各自保留浅色与深色主题。"
+  },
+  {
+    "old": "This layout sets its own; yours shows in the others.",
+    "new": "当前布局有自己的主题；你的设置在其它布局里生效。"
+  },
+  {
+    "old": "Size and fonts",
+    "new": "大小与字体"
+  },
+  {
+    "old": "Zoom",
+    "new": "缩放"
+  },
+  {
+    "old": "Everything: terminals, panels, text.",
+    "new": "影响全部内容：终端、面板与文字。"
+  },
+  {
+    "old": "Reset",
+    "new": "重置"
+  },
+  {
+    "old": "Terminal font",
+    "new": "终端字体"
+  },
+  {
+    "old": "Terminal font weight",
+    "new": "终端字重"
+  },
+  {
+    "old": "Bold text stays at 700.",
+    "new": "粗体仍保持 700。"
+  },
+  {
+    "old": "Terminal line height",
+    "new": "终端行高"
+  },
+  {
+    "old": "Terminal cell width",
+    "new": "终端字宽"
+  },
+  {
+    "old": "Terminal scroll speed",
+    "new": "终端滚动速度"
+  },
+  {
+    "old": "Interface font",
+    "new": "界面字体"
+  },
+  {
+    "old": "Automatic (Alt on US keyboards)",
+    "new": "自动（美式键盘下为 Alt）"
+  },
+  {
+    "old": "Types characters",
+    "new": "输入字符"
+  },
+  {
+    "old": "Left Option is Alt",
+    "new": "左 Option 作为 Alt"
+  },
+  {
+    "old": "Right Option is Alt",
+    "new": "右 Option 作为 Alt"
+  },
+  {
+    "old": "Option key",
+    "new": "Option 键"
+  },
+  {
+    "old": "Use Option for terminal shortcuts or to type accents and special characters.",
+    "new": "让 Option 充当终端快捷键，或用来输入重音与特殊字符。"
+  },
+  {
+    "old": "Couldn't read machines.",
+    "new": "无法读取机器列表。"
+  },
+  {
+    "old": "It didn't work.",
+    "new": "操作失败。"
+  },
+  {
+    "old": "Copied",
+    "new": "已复制"
+  },
+  {
+    "old": "Copy",
+    "new": "复制"
+  },
+  {
+    "old": "Copying this computer's herdr-core. Its terminals keep running.",
+    "new": "正在复制这台电脑的 herdr-core，其中的终端会继续运行。"
+  },
+  {
+    "old": "Cancel",
+    "new": "取消"
+  },
+  {
+    "old": "Remove machine",
+    "new": "移除机器"
+  },
+  {
+    "old": "New name (addresses using the old name stop working)",
+    "new": "新名称（使用旧名称的地址将失效）"
+  },
+  {
+    "old": "Save",
+    "new": "保存"
+  },
+  {
+    "old": "Your computers, reached over ssh. Their terminals keep running when you disconnect.",
+    "new": "通过 ssh 连接的其它电脑。你断开后，其中的终端仍继续运行。"
+  },
+  {
+    "old": "This computer",
+    "new": "这台电脑"
+  },
+  {
+    "old": "hc version unknown",
+    "new": "hc 版本未知"
+  },
+  {
+    "old": "Reading machines…",
+    "new": "正在读取机器…"
+  },
+  {
+    "old": "No other machines yet.",
+    "new": "还没有其它机器。"
+  },
+  {
+    "old": "Add a machine",
+    "new": "添加机器"
+  },
+  {
+    "old": "Herdr's sound",
+    "new": "Herdr 自带音效"
+  },
+  {
+    "old": "Sounds",
+    "new": "音效"
+  },
+  {
+    "old": "Play sounds",
+    "new": "播放音效"
+  },
+  {
+    "old": "When an agent needs you, and when one finishes while you're not looking. A note shows in the corner either way.",
+    "new": "智能体需要你时，或你没在看时它完成任务，会播放音效。两种情况角落都会有提示。"
+  },
+  {
+    "old": "An agent needs you",
+    "new": "智能体需要你"
+  },
+  {
+    "old": "Play",
+    "new": "播放"
+  },
+  {
+    "old": "An agent finished",
+    "new": "智能体已完成"
+  },
+  {
+    "old": "Want your own sounds? Ask your agent to set sounds.done and sounds.blocked in settings.json to an MP3.",
+    "new": "想用自己的音效？让智能体把 settings.json 里的 sounds.done 和 sounds.blocked 设成 MP3 文件。"
+  },
+  {
+    "old": "Checking\\u2026",
+    "new": "正在检查…"
+  },
+  {
+    "old": "\\u2713 Up to date",
+    "new": "\\u2713 已是最新"
+  },
+  {
+    "old": "Check now",
+    "new": "立即检查"
+  },
+  {
+    "old": "`Up to date.${checked}`",
+    "new": "`已是最新。${checked}`"
+  },
+  {
+    "old": "` Checked at ${at(u.checked)}.`",
+    "new": "` 上次检查：${at(u.checked)}。`"
+  },
+  {
+    "old": "No successful check. Check your connection and try again.",
+    "new": "还没有成功的检查记录。请检查网络后重试。"
+  },
+  {
+    "old": "A build from source: it updates with git, not here.",
+    "new": "这是从源码构建的版本：用 git 更新，不在这里更新。"
+  },
+  {
+    "old": "Not checked: a build from source looks for no updates.",
+    "new": "未检查：从源码构建的版本不会查找更新。"
+  },
+  {
+    "old": "What's new",
+    "new": "新功能"
+  },
+  {
+    "old": "Restart to update",
+    "new": "重启以更新"
+  },
+  {
+    "old": "`The update failed: ${c.error}`",
+    "new": "`更新失败：${c.error}`"
+  },
+  {
+    "old": "Try again",
+    "new": "重试"
+  },
+  {
+    "old": "Update herdr-core",
+    "new": "更新 herdr-core"
+  },
+  {
+    "old": "Updating\\u2026 your terminals keep running.",
+    "new": "正在更新…终端会继续运行。"
+  },
+  {
+    "old": "Usage data",
+    "new": "使用数据"
+  },
+  {
+    "old": "Share anonymous usage data",
+    "new": "共享匿名使用数据"
+  },
+  {
+    "old": "Once a day: which agents and features you use, how many spaces and tabs, your system and Herdr's version. Never what's in your terminals, never names of files, folders or projects.",
+    "new": "每天一次：你用了哪些智能体和功能、空间与标签页的数量、你的系统与 Herdr 版本。绝不包含终端内容，也绝不包含文件、文件夹或项目名称。"
+  },
+  {
+    "old": "What we send",
+    "new": "我们发送什么"
+  },
+  {
+    "old": "This build never sends: it's built from source. You can still see what a release would send.",
+    "new": "此版本从不发送数据：它是从源码构建的。你仍可以查看正式版会发送什么。"
+  },
+  {
+    "old": "Exactly what leaves your computer, word for word.",
+    "new": "即将离开你电脑的内容，一字不差。"
+  },
+  {
+    "old": "Hide",
+    "new": "收起"
+  },
+  {
+    "old": "Show",
+    "new": "展开"
+  },
+  {
+    "old": "Nothing is collected or sent while it's off.",
+    "new": "关闭期间不收集、不发送任何数据。"
+  },
+  {
+    "old": "Sent as is, soon.",
+    "new": "即将按原样发送。"
+  },
+  {
+    "old": "Today so far",
+    "new": "今日至今"
+  },
+  {
+    "old": "A draft: it changes until the day ends (UTC), then goes out once.",
+    "new": "草稿：到当天结束（UTC）前会变化，之后发送一次。"
+  },
+  {
+    "old": "needs a login: run",
+    "new": "需要登录，请运行"
+  },
+  {
+    "old": "Herdr looks for both every hour and tells you in the corner. herdr-core runs your terminals, so they keep running through its updates.",
+    "new": "Herdr 每小时检查两者一次，并在角落提示你。herdr-core 承载你的终端，因此更新期间终端会继续运行。"
+  },
+  {
+    "old": "settings.json has errors: fix it first",
+    "new": "settings.json 有错误：请先修复"
+  },
+  {
+    "old": "Cannot read settings.json",
+    "new": "无法读取 settings.json"
+  }
+]

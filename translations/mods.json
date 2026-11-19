@@ -1,0 +1,1255 @@
+{
+  "agents": {
+    "patches": [
+      {
+        "i": 2885,
+        "old": "Priority",
+        "new": "优先级",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 2940,
+        "old": "Grouped by space",
+        "new": "按空间分组",
+        "len": 18,
+        "quote": "\""
+      },
+      {
+        "i": 3102,
+        "old": "Done",
+        "new": "已完成",
+        "len": 6,
+        "quote": "\""
+      },
+      {
+        "i": 3113,
+        "old": "Working",
+        "new": "工作中",
+        "len": 9,
+        "quote": "\""
+      },
+      {
+        "i": 3127,
+        "old": "Idle",
+        "new": "空闲",
+        "len": 6,
+        "quote": "\""
+      },
+      {
+        "i": 6396,
+        "old": "Sort agents",
+        "new": "排序智能体",
+        "len": 13,
+        "quote": "\""
+      },
+      {
+        "i": 9290,
+        "old": "Needs you",
+        "new": "需要你",
+        "len": 11,
+        "quote": "\""
+      },
+      {
+        "i": 14482,
+        "old": "Unpin",
+        "new": "取消固定",
+        "len": 7,
+        "quote": "\""
+      },
+      {
+        "i": 14492,
+        "old": "Pin to the top",
+        "new": "固定到顶部",
+        "len": 16,
+        "quote": "\""
+      },
+      {
+        "i": 17081,
+        "old": "Pinned",
+        "new": "已固定",
+        "len": 8,
+        "quote": "\""
+      },
+      {
+        "i": 19255,
+        "old": "Agents",
+        "new": "智能体",
+        "len": 8,
+        "quote": "\""
+      },
+      {
+        "i": 19512,
+        "old": "agents",
+        "new": "zh-agents",
+        "len": 8,
+        "quote": "\""
+      },
+      {
+        "i": 19882,
+        "old": "No agent status yet. Agents show up here when they report their status. Older versions and agents inside tmux may not.",
+        "new": "尚无智能体状态。智能体上报状态后会显示在这里。旧版本及 tmux 中的智能体可能不显示。",
+        "len": 120,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": "智能体"
+  },
+  "changes": {
+    "patches": [
+      {
+        "i": 2041,
+        "old": "Commit message",
+        "new": "提交信息",
+        "len": 16,
+        "quote": "\""
+      },
+      {
+        "i": 3634,
+        "old": "Not a git repository",
+        "new": "不是 git 仓库",
+        "len": 22,
+        "quote": "\""
+      },
+      {
+        "i": 5902,
+        "old": "Cannot preview this diff (too large or unreadable)",
+        "new": "无法预览此差异（过大或无法读取）",
+        "len": 52,
+        "quote": "\""
+      },
+      {
+        "i": 6445,
+        "old": "Cannot preview this file (binary, too large, or unreadable)",
+        "new": "无法预览此文件（二进制、过大或无法读取）",
+        "len": 61,
+        "quote": "\""
+      },
+      {
+        "i": 6554,
+        "old": "Binary file · no text diff",
+        "new": "二进制文件 · 无文本差异",
+        "len": 28,
+        "quote": "\""
+      },
+      {
+        "i": 7162,
+        "old": "Binary file changed",
+        "new": "二进制文件已改动",
+        "len": 21,
+        "quote": "\""
+      },
+      {
+        "i": 7186,
+        "old": "No text diff available",
+        "new": "没有可用的文本差异",
+        "len": 24,
+        "quote": "\""
+      },
+      {
+        "i": 7377,
+        "old": "… (line truncated)",
+        "new": "…（行已截断）",
+        "len": 20,
+        "quote": "\""
+      },
+      {
+        "i": 10088,
+        "old": "Changes",
+        "new": "改动",
+        "len": 9,
+        "quote": "\""
+      },
+      {
+        "i": 11729,
+        "old": "Loading changes…",
+        "new": "正在载入改动…",
+        "len": 18,
+        "quote": "\""
+      },
+      {
+        "i": 11762,
+        "old": "No uncommitted changes",
+        "new": "没有未提交的改动",
+        "len": 24,
+        "quote": "\""
+      },
+      {
+        "i": 11789,
+        "old": "No folder",
+        "new": "没有文件夹",
+        "len": 11,
+        "quote": "\""
+      },
+      {
+        "i": 11977,
+        "old": "Showing the first 1,000 changed files",
+        "new": "仅显示前 1,000 个改动文件",
+        "len": 39,
+        "quote": "\""
+      },
+      {
+        "i": 12685,
+        "old": "Select a file to view its changes",
+        "new": "选择一个文件查看它的改动",
+        "len": 35,
+        "quote": "\""
+      },
+      {
+        "i": 13513,
+        "old": "Committing…",
+        "new": "正在提交…",
+        "len": 13,
+        "quote": "\""
+      },
+      {
+        "i": 13529,
+        "old": "Commit",
+        "new": "提交",
+        "len": 8,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": null
+  },
+  "files": {
+    "patches": [
+      {
+        "i": 1964,
+        "old": "Cannot list this folder",
+        "new": "无法列出此文件夹",
+        "len": 25,
+        "quote": "\""
+      },
+      {
+        "i": 2727,
+        "old": "Cannot list this folder",
+        "new": "无法列出此文件夹",
+        "len": 25,
+        "quote": "\""
+      },
+      {
+        "i": 7398,
+        "old": "This file is no longer available",
+        "new": "此文件已不存在",
+        "len": 34,
+        "quote": "\""
+      },
+      {
+        "i": 7496,
+        "old": "Binary file · no text preview",
+        "new": "二进制文件 · 无法预览文本",
+        "len": 31,
+        "quote": "\""
+      },
+      {
+        "i": 7770,
+        "old": "\\n… (file truncated)",
+        "new": "\\n…（文件已截断）",
+        "len": 22,
+        "quote": "\""
+      },
+      {
+        "i": 8091,
+        "old": "Cannot preview this file (binary, too large, or unreadable)",
+        "new": "无法预览此文件（二进制、过大或无法读取）",
+        "len": 61,
+        "quote": "\""
+      },
+      {
+        "i": 9962,
+        "old": "Files",
+        "new": "文件",
+        "len": 7,
+        "quote": "\""
+      },
+      {
+        "i": 10434,
+        "old": "Loading files…",
+        "new": "正在载入文件…",
+        "len": 16,
+        "quote": "\""
+      },
+      {
+        "i": 10465,
+        "old": "No files",
+        "new": "没有文件",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 10478,
+        "old": "No folder",
+        "new": "没有文件夹",
+        "len": 11,
+        "quote": "\""
+      },
+      {
+        "i": 10586,
+        "old": "File list limited to 500 entries per folder and 5,000 total",
+        "new": "文件列表每个文件夹最多 500 项，合计 5,000 项",
+        "len": 61,
+        "quote": "\""
+      },
+      {
+        "i": 10808,
+        "old": "Loading file…",
+        "new": "正在载入文件…",
+        "len": 15,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": null
+  },
+  "machine-add": {
+    "patches": [
+      {
+        "i": 5637,
+        "old": "it didn't answer",
+        "new": "没有响应",
+        "len": 18,
+        "quote": "\""
+      },
+      {
+        "i": 6419,
+        "old": "it didn't work",
+        "new": "操作失败",
+        "len": 16,
+        "quote": "\""
+      },
+      {
+        "i": 7472,
+        "old": "Agents on ${m.name} stop when you disconnect",
+        "new": "断开连接后，${m.name} 上的智能体会停止",
+        "len": 46,
+        "quote": "`"
+      },
+      {
+        "i": 7611,
+        "old": "The server ends your programs when your last login closes, for example when your laptop sleeps.",
+        "new": "服务器会在你最后一个登录会话结束时终止你的程序，例如笔记本休眠时。",
+        "len": 97,
+        "quote": "\""
+      },
+      {
+        "i": 7772,
+        "old": "Run this on ${m.name} once:",
+        "new": "在 ${m.name} 上运行一次：",
+        "len": 29,
+        "quote": "`"
+      },
+      {
+        "i": 8286,
+        "old": "Copied",
+        "new": "已复制",
+        "len": 8,
+        "quote": "\""
+      },
+      {
+        "i": 8297,
+        "old": "Copy",
+        "new": "复制",
+        "len": 6,
+        "quote": "\""
+      },
+      {
+        "i": 8813,
+        "old": "macOS asks on the Mac's own screen before an agent reads Desktop, Documents or Downloads, and waits until someone answers. Give herdr-core Full Disk Access there and it never asks again: in the list, press + and pick this file:",
+        "new": "macOS 会在 Mac 自己的屏幕上询问是否允许智能体读取桌面、文稿或下载，并一直等到有人回答。在那边给 herdr-core 授予完全磁盘访问权限后就不会再问：在列表中按 +，选择这个文件：",
+        "len": 229,
+        "quote": "\""
+      },
+      {
+        "i": 9973,
+        "old": "Open the setting on ${mac.name}",
+        "new": "在 ${mac.name} 上打开该设置",
+        "len": 33,
+        "quote": "`"
+      },
+      {
+        "i": 10128,
+        "old": "It's open on the Mac's screen.",
+        "new": "它已在 Mac 的屏幕上打开。",
+        "len": 32,
+        "quote": "\""
+      },
+      {
+        "i": 11077,
+        "old": "Copied",
+        "new": "已复制",
+        "len": 8,
+        "quote": "\""
+      },
+      {
+        "i": 11088,
+        "old": "Copy",
+        "new": "复制",
+        "len": 6,
+        "quote": "\""
+      },
+      {
+        "i": 11456,
+        "old": "Added",
+        "new": "已添加",
+        "len": 7,
+        "quote": "\""
+      },
+      {
+        "i": 11636,
+        "old": "Connecting",
+        "new": "正在连接",
+        "len": 12,
+        "quote": "\""
+      },
+      {
+        "i": 12128,
+        "old": "Add",
+        "new": "添加",
+        "len": 5,
+        "quote": "\""
+      },
+      {
+        "i": 13498,
+        "old": "Add a machine",
+        "new": "添加机器",
+        "len": 15,
+        "quote": "\""
+      },
+      {
+        "i": 13861,
+        "old": "A VPS, a Mac mini, a box at home: Herdr reaches it over ssh, and agents there keep running while your laptop sleeps.",
+        "new": "VPS、Mac mini、家里的机器：Herdr 通过 ssh 连接它们，智能体在你笔记本休眠时仍继续运行。",
+        "len": 118,
+        "quote": "\""
+      },
+      {
+        "i": 14091,
+        "old": "From your ssh config",
+        "new": "来自你的 ssh 配置",
+        "len": 22,
+        "quote": "\""
+      },
+      {
+        "i": 14116,
+        "old": "Your ssh config lists no hosts",
+        "new": "你的 ssh 配置里没有主机",
+        "len": 32,
+        "quote": "\""
+      },
+      {
+        "i": 14436,
+        "old": "Reading ~/.ssh/config…",
+        "new": "正在读取 ~/.ssh/config…",
+        "len": 24,
+        "quote": "\""
+      },
+      {
+        "i": 14975,
+        "old": "Or type how ssh reaches it",
+        "new": "或输入 ssh 如何连接它",
+        "len": 28,
+        "quote": "\""
+      },
+      {
+        "i": 15964,
+        "old": "Add",
+        "new": "添加",
+        "len": 5,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": "添加机器"
+  },
+  "menu": {
+    "patches": [
+      {
+        "i": 1934,
+        "old": "Split right",
+        "new": "向右分屏",
+        "len": 13,
+        "quote": "\""
+      },
+      {
+        "i": 2018,
+        "old": "Split down",
+        "new": "向下分屏",
+        "len": 12,
+        "quote": "\""
+      },
+      {
+        "i": 2100,
+        "old": "Zoom",
+        "new": "缩放",
+        "len": 6,
+        "quote": "\""
+      },
+      {
+        "i": 2246,
+        "old": "Use Herdr right-click menu",
+        "new": "使用 Herdr 右键菜单",
+        "len": 28,
+        "quote": "\""
+      },
+      {
+        "i": 2359,
+        "old": "Send right-clicks to pane",
+        "new": "把右键发送给程序",
+        "len": 27,
+        "quote": "\""
+      },
+      {
+        "i": 2510,
+        "old": "Send back to ${parent.name || parent.address}",
+        "new": "移回 ${parent.name || parent.address}",
+        "len": 47,
+        "quote": "`"
+      },
+      {
+        "i": 2634,
+        "old": "Close pane",
+        "new": "关闭窗格",
+        "len": 12,
+        "quote": "\""
+      },
+      {
+        "i": 2744,
+        "old": "Rename",
+        "new": "重命名",
+        "len": 8,
+        "quote": "\""
+      },
+      {
+        "i": 2793,
+        "old": "New tab",
+        "new": "新建标签页",
+        "len": 9,
+        "quote": "\""
+      },
+      {
+        "i": 2846,
+        "old": "Close",
+        "new": "关闭",
+        "len": 7,
+        "quote": "\""
+      },
+      {
+        "i": 2935,
+        "old": "Rename",
+        "new": "重命名",
+        "len": 8,
+        "quote": "\""
+      },
+      {
+        "i": 2997,
+        "old": "New worktree",
+        "new": "新建工作树",
+        "len": 14,
+        "quote": "\""
+      },
+      {
+        "i": 3060,
+        "old": "Open worktree",
+        "new": "打开工作树",
+        "len": 15,
+        "quote": "\""
+      },
+      {
+        "i": 3164,
+        "old": "Remove worktree",
+        "new": "移除工作树",
+        "len": 17,
+        "quote": "\""
+      },
+      {
+        "i": 3248,
+        "old": "Close",
+        "new": "关闭",
+        "len": 7,
+        "quote": "\""
+      },
+      {
+        "i": 3334,
+        "old": "New space",
+        "new": "新建空间",
+        "len": 11,
+        "quote": "\""
+      },
+      {
+        "i": 3374,
+        "old": "Keybinds",
+        "new": "快捷键",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 3412,
+        "old": "Theme: graphite",
+        "new": "主题：graphite",
+        "len": 17,
+        "quote": "\""
+      },
+      {
+        "i": 3476,
+        "old": "Theme: ink",
+        "new": "主题：ink",
+        "len": 12,
+        "quote": "\""
+      },
+      {
+        "i": 3530,
+        "old": "Theme: moss",
+        "new": "主题：moss",
+        "len": 13,
+        "quote": "\""
+      },
+      {
+        "i": 3586,
+        "old": "Theme: atom one dark",
+        "new": "主题：atom one dark",
+        "len": 22,
+        "quote": "\""
+      },
+      {
+        "i": 5075,
+        "old": "worktree",
+        "new": "zh-worktree",
+        "len": 10,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": null
+  },
+  "new-menu": {
+    "patches": [
+      {
+        "i": 3151,
+        "old": "Terminal",
+        "new": "终端",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 3304,
+        "old": "Start an agent",
+        "new": "启动智能体",
+        "len": 16,
+        "quote": "\""
+      },
+      {
+        "i": 3657,
+        "old": "not installed",
+        "new": "未安装",
+        "len": 15,
+        "quote": "\""
+      },
+      {
+        "i": 3815,
+        "old": "Could not check installed agents",
+        "new": "无法检查已安装的智能体",
+        "len": 34,
+        "quote": "\""
+      },
+      {
+        "i": 3852,
+        "old": "Checking installed agents…",
+        "new": "正在检查已安装的智能体…",
+        "len": 28,
+        "quote": "\""
+      },
+      {
+        "i": 3990,
+        "old": "New space",
+        "new": "新建空间",
+        "len": 11,
+        "quote": "\""
+      },
+      {
+        "i": 4135,
+        "old": "New worktree…",
+        "new": "新建工作树…",
+        "len": 15,
+        "quote": "\""
+      },
+      {
+        "i": 4177,
+        "old": "worktree",
+        "new": "zh-worktree",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 4430,
+        "old": "Open worktree\\u2026",
+        "new": "打开工作树…",
+        "len": 21,
+        "quote": "\""
+      },
+      {
+        "i": 4478,
+        "old": "worktree",
+        "new": "zh-worktree",
+        "len": 10,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": null
+  },
+  "pane": {
+    "patches": [
+      {
+        "i": 1868,
+        "old": "mods/pane/${icon}.svg",
+        "new": "mods/zh-pane/${icon}.svg",
+        "len": 23,
+        "quote": "`"
+      },
+      {
+        "i": 3250,
+        "old": "Needs you",
+        "new": "需要你",
+        "len": 11,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": "窗格标题栏"
+  },
+  "picker": {
+    "patches": [
+      {
+        "i": 2011,
+        "old": "Go to a tab, space or agent…",
+        "new": "跳转到标签页、空间或智能体…",
+        "len": 30,
+        "quote": "\""
+      },
+      {
+        "i": 7684,
+        "old": "earlier: ${r.count} quiet space${r.count > 1 ? \"s\" : \"\"} ${this.showEarlier ? \"▴\" : \"▾\"}",
+        "new": "更早：${r.count} 个安静空间 ${this.showEarlier ? \"▴\" : \"▾\"}",
+        "len": 90,
+        "quote": "`"
+      },
+      {
+        "i": 7906,
+        "old": "new tab",
+        "new": "新建标签页",
+        "len": 9,
+        "quote": "\""
+      },
+      {
+        "i": 7960,
+        "old": "new space",
+        "new": "新建空间",
+        "len": 11,
+        "quote": "\""
+      },
+      {
+        "i": 9189,
+        "old": "needs you",
+        "new": "需要你",
+        "len": 11,
+        "quote": "\""
+      },
+      {
+        "i": 9305,
+        "old": "finished",
+        "new": "已完成",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 10246,
+        "old": "Go to…",
+        "new": "跳转到…",
+        "len": 8,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": "快速跳转"
+  },
+  "spaces": {
+    "patches": [
+      {
+        "i": 8425,
+        "old": "Couldn't connect.",
+        "new": "无法连接。",
+        "len": 19,
+        "quote": "\""
+      },
+      {
+        "i": 11658,
+        "old": "(detached)",
+        "new": "（已分离）",
+        "len": 12,
+        "quote": "\""
+      },
+      {
+        "i": 12809,
+        "old": "menu",
+        "new": "zh-menu",
+        "len": 6,
+        "quote": "\""
+      },
+      {
+        "i": 16234,
+        "old": "Loading…",
+        "new": "载入中…",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 17449,
+        "old": "${m} needs a login: run ${login}. Click for Copy.",
+        "new": "${m} 需要登录，请运行 ${login}。点击复制。",
+        "len": 51,
+        "quote": "`"
+      },
+      {
+        "i": 17507,
+        "old": "${m} · ${connected ? \"connected\" : (machine?.state ?? \"asleep\").replace(/_/g, \" \")}",
+        "new": "${m} · ${connected ? \"已连接\" : (machine?.state ?? \"asleep\").replace(/_/g, \" \")}",
+        "len": 85,
+        "quote": "`"
+      },
+      {
+        "i": 17595,
+        "old": "This computer",
+        "new": "这台电脑",
+        "len": 15,
+        "quote": "\""
+      },
+      {
+        "i": 18132,
+        "old": "Agents stop when you disconnect. Click for the fix.",
+        "new": "断开连接后智能体会停止。点击查看修复方法。",
+        "len": 53,
+        "quote": "\""
+      },
+      {
+        "i": 18263,
+        "old": "machine-add",
+        "new": "zh-machine-add",
+        "len": 13,
+        "quote": "\""
+      },
+      {
+        "i": 18574,
+        "old": "This computer",
+        "new": "这台电脑",
+        "len": 15,
+        "quote": "\""
+      },
+      {
+        "i": 18885,
+        "old": "rebuilt ·",
+        "new": "已重建 ·",
+        "len": 11,
+        "quote": "\""
+      },
+      {
+        "i": 19093,
+        "old": "This machine was rebuilt or replaced. Click to connect to the new one.",
+        "new": "这台机器已重建或被替换。点击连接到新机器。",
+        "len": 72,
+        "quote": "\""
+      },
+      {
+        "i": 19296,
+        "old": "Connecting…",
+        "new": "正在连接…",
+        "len": 13,
+        "quote": "\""
+      },
+      {
+        "i": 19312,
+        "old": "Connect",
+        "new": "连接",
+        "len": 9,
+        "quote": "\""
+      },
+      {
+        "i": 20176,
+        "old": "New space on ${m ?? \"this computer\"}",
+        "new": "在 ${m ?? \"这台电脑\"} 新建空间",
+        "len": 38,
+        "quote": "`"
+      },
+      {
+        "i": 20489,
+        "old": "New space there",
+        "new": "在该机器新建空间",
+        "len": 17,
+        "quote": "\""
+      },
+      {
+        "i": 20778,
+        "old": "needs a login: run",
+        "new": "需要登录，请运行",
+        "len": 20,
+        "quote": "\""
+      },
+      {
+        "i": 21337,
+        "old": "Copied",
+        "new": "已复制",
+        "len": 8,
+        "quote": "\""
+      },
+      {
+        "i": 21348,
+        "old": "Copy",
+        "new": "复制",
+        "len": 6,
+        "quote": "\""
+      },
+      {
+        "i": 27380,
+        "old": "Spaces",
+        "new": "空间",
+        "len": 8,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": "空间"
+  },
+  "tabs": {
+    "patches": [
+      {
+        "i": 841,
+        "old": "Terminal",
+        "new": "终端",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 5905,
+        "old": "menu",
+        "new": "zh-menu",
+        "len": 6,
+        "quote": "\""
+      },
+      {
+        "i": 6707,
+        "old": "mods/pane/close.svg",
+        "new": "mods/zh-pane/close.svg",
+        "len": 21,
+        "quote": "\""
+      },
+      {
+        "i": 8560,
+        "old": "new-menu",
+        "new": "zh-new-menu",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 8691,
+        "old": "Files",
+        "new": "文件",
+        "len": 7,
+        "quote": "\""
+      },
+      {
+        "i": 8804,
+        "old": "Changes",
+        "new": "改动",
+        "len": 9,
+        "quote": "\""
+      },
+      {
+        "i": 9289,
+        "old": "mods/pane/close.svg",
+        "new": "mods/zh-pane/close.svg",
+        "len": 21,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": "标签页"
+  },
+  "toast": {
+    "patches": [
+      {
+        "i": 1365,
+        "old": "${login[1]} needs a login: run",
+        "new": "${login[1]} 需要登录，请运行",
+        "len": 32,
+        "quote": "`"
+      },
+      {
+        "i": 2107,
+        "old": "Copied",
+        "new": "已复制",
+        "len": 8,
+        "quote": "\""
+      },
+      {
+        "i": 2118,
+        "old": "Copy",
+        "new": "复制",
+        "len": 6,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": null
+  },
+  "workspace-chrome": {
+    "patches": [
+      {
+        "i": 2204,
+        "old": "Settings",
+        "new": "设置",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 2405,
+        "old": "Add machine",
+        "new": "添加机器",
+        "len": 13,
+        "quote": "\""
+      },
+      {
+        "i": 2456,
+        "old": "machine-add",
+        "new": "zh-machine-add",
+        "len": 13,
+        "quote": "\""
+      },
+      {
+        "i": 3046,
+        "old": "picker",
+        "new": "zh-picker",
+        "len": 8,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": null
+  },
+  "workspace-status": {
+    "patches": [
+      {
+        "i": 858,
+        "old": "${key}  commands",
+        "new": "${key}  命令",
+        "len": 18,
+        "quote": "`"
+      },
+      {
+        "i": 879,
+        "old": "commands",
+        "new": "命令",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 1431,
+        "old": "This computer",
+        "new": "这台电脑",
+        "len": 15,
+        "quote": "\""
+      },
+      {
+        "i": 1624,
+        "old": "${list.length} agents",
+        "new": "${list.length} 个智能体",
+        "len": 23,
+        "quote": "`"
+      },
+      {
+        "i": 1723,
+        "old": "· ${needs} needs you",
+        "new": "· ${needs} 个需要你",
+        "len": 22,
+        "quote": "`"
+      }
+    ],
+    "rewrites": [],
+    "title": null
+  },
+  "worktree": {
+    "patches": [
+      {
+        "i": 18842,
+        "old": "↵ create · esc cancel",
+        "new": "↵ 创建 · esc 取消",
+        "len": 23,
+        "quote": "\""
+      },
+      {
+        "i": 18816,
+        "old": "↵ remove · esc cancel",
+        "new": "↵ 移除 · esc 取消",
+        "len": 23,
+        "quote": "\""
+      },
+      {
+        "i": 18793,
+        "old": "esc close",
+        "new": "esc 关闭",
+        "len": 11,
+        "quote": "\""
+      },
+      {
+        "i": 18770,
+        "old": "working…",
+        "new": "处理中…",
+        "len": 10,
+        "quote": "\""
+      },
+      {
+        "i": 17909,
+        "old": "Submodule ${this.unpushed.join(\", \")} has commits that aren't pushed anywhere: they will be lost.",
+        "new": "子模块 ${this.unpushed.join(\"、\")} 有未推送到任何地方的提交，将被丢弃。",
+        "len": 99,
+        "quote": "`"
+      },
+      {
+        "i": 17758,
+        "old": "It has uncommitted changes: they will be lost.",
+        "new": "它有未提交的改动，将被丢弃。",
+        "len": 48,
+        "quote": "\""
+      },
+      {
+        "i": 16973,
+        "old": "This is the repository's main checkout, not a worktree.",
+        "new": "这是仓库的主检出，不是工作树。",
+        "len": 57,
+        "quote": "\""
+      },
+      {
+        "i": 16817,
+        "old": "${this.folder ? tilde(this.folder, this.userHome) : \"This folder\"} is not in a git repository.",
+        "new": "${this.folder ? tilde(this.folder, this.userHome) : \"此文件夹\"} is not in a git repository.",
+        "len": 96,
+        "quote": "`"
+      },
+      {
+        "i": 16152,
+        "old": "No matching worktrees.",
+        "new": "没有匹配的工作树。",
+        "len": 24,
+        "quote": "\""
+      },
+      {
+        "i": 15407,
+        "old": "${this.folder ? tilde(this.folder, this.userHome ?? \"\") : \"This folder\"} is not in a git repository.",
+        "new": "${this.folder ? tilde(this.folder, this.userHome ?? \"\") : \"此文件夹\"} is not in a git repository.",
+        "len": 102,
+        "quote": "`"
+      },
+      {
+        "i": 15117,
+        "old": " of ${r.name}",
+        "new": "：${r.name}",
+        "len": 15,
+        "quote": "`"
+      },
+      {
+        "i": 15097,
+        "old": "Open worktree${r ? ",
+        "new": "打开工作树${r ? ",
+        "len": 21,
+        "quote": "`"
+      },
+      {
+        "i": 14418,
+        "old": "open",
+        "new": "打开",
+        "len": 6,
+        "quote": "\""
+      },
+      {
+        "i": 14289,
+        "old": "main checkout",
+        "new": "主检出",
+        "len": 15,
+        "quote": "\""
+      },
+      {
+        "i": 12881,
+        "old": "git worktree remove failed.",
+        "new": "移除 git 工作树失败。",
+        "len": 29,
+        "quote": "\""
+      },
+      {
+        "i": 12472,
+        "old": "It changed since this opened. Enter again removes it anyway.",
+        "new": "打开后它已被改动。再次按 Enter 仍会移除。",
+        "len": 62,
+        "quote": "\""
+      },
+      {
+        "i": 11926,
+        "old": "git status failed.",
+        "new": "git status 执行失败。",
+        "len": 20,
+        "quote": "\""
+      },
+      {
+        "i": 11043,
+        "old": "git worktree add failed.",
+        "new": "创建 git 工作树失败。",
+        "len": 26,
+        "quote": "\""
+      },
+      {
+        "i": 10628,
+        "old": "Type a branch name.",
+        "new": "请输入分支名称。",
+        "len": 21,
+        "quote": "\""
+      },
+      {
+        "i": 8512,
+        "old": "Could not find the remote home folder.",
+        "new": "找不到远程用户的主文件夹。",
+        "len": 40,
+        "quote": "\""
+      },
+      {
+        "i": 7320,
+        "old": "branch name",
+        "new": "分支名称",
+        "len": 13,
+        "quote": "\""
+      },
+      {
+        "i": 7299,
+        "old": "filter worktrees",
+        "new": "筛选工作树",
+        "len": 18,
+        "quote": "\""
+      },
+      {
+        "i": 5877,
+        "old": "git rev-parse failed.",
+        "new": "git rev-parse 执行失败。",
+        "len": 23,
+        "quote": "\""
+      },
+      {
+        "i": 1008,
+        "old": "worktrees.directory must be a non-empty path.",
+        "new": "worktrees.directory 必须是非空路径。",
+        "len": 47,
+        "quote": "\""
+      }
+    ],
+    "rewrites": [],
+    "title": null
+  }
+}
